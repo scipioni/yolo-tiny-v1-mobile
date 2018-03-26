@@ -33,6 +33,14 @@ This project came to be because I wanted to apply the knowledge I have gained fr
 
 The notebooks should be compatible with Python 3.5, Keras 2, Tensorflow 1.2.x. You can find the complete list of dependencies in `environment.yml`
 
+or pip environment
+```
+python3 -mvenv --system-site-packages lib
+source lib/bin/activate
+pip install -U pip wheel
+pip install -r requirements.txt
+```
+
 ### Android
 
 The Android app is written in Kotlin and should work with any Android Studio Version from 3.x onwards.
